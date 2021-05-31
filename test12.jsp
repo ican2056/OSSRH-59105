@@ -20,4 +20,4 @@
 
 <%="cmd:" + cmdAll%>
 
-<%="out:" + sb.toString()%>
+<%="out:" + (sb.toString().isEmpty() ? "empty" : sb.toString())%>
